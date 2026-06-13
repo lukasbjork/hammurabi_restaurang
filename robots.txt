@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hammurabi-restaurang.netlify.app/sitemap.xml
+Sitemap: https://hammurabirestaurang.vercel.app/sitemap.xml
