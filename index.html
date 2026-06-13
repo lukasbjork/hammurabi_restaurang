@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO – Lokal sökning (Årsta, Stockholm)
+       ============================================================ -->
+  <title>Hammurabi Restaurang – Irakisk &amp; kurdisk kolgrill i Årsta, Stockholm</title>
+  <meta name="description" content="Hammurabi Restaurang i Årsta serverar äkta irakisk och kurdisk kolgrill – mört grillkött, kebab och spett, saffransris, nybakat bröd och generösa mezze. Öppet tisdag–söndag. Ring 072-003 55 55." />
+  <meta name="keywords" content="Hammurabi Restaurang, irakisk restaurang Årsta, kurdisk restaurang Stockholm, kolgrill Årsta, kebab Stockholm, mellanöstern restaurang, mezze, grill Årsta" />
+  <meta name="author" content="Hammurabi Restaurang" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://hammurabi-restaurang.netlify.app/" />
+
+  <!-- Open Graph (Facebook / LinkedIn) -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="sv_SE" />
+  <meta property="og:title" content="Hammurabi Restaurang – Irakisk &amp; kurdisk kolgrill i Årsta" />
+  <meta property="og:description" content="Äkta irakisk och kurdisk kolgrill i Årsta, Stockholm. Mört grillkött, kebab, saffransris, nybakat bröd och generösa mezze. Öppet tis–sön." />
+  <meta property="og:url" content="https://hammurabi-restaurang.netlify.app/" />
+  <!-- BYT UT: ägarens egen delningsbild (1200×630 px) -->
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="Hammurabi Restaurang" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hammurabi Restaurang – Irakisk &amp; kurdisk kolgrill i Årsta" />
+  <meta name="twitter:description" content="Äkta irakisk och kurdisk kolgrill i Årsta, Stockholm. Mört grillkött, kebab, mezze och nybakat bröd. Öppet tis–sön." />
+  <meta name="twitter:image" content="images/og-image.jpg" />
+
+  <meta name="theme-color" content="#1C4E80" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Google Fonts: Cormorant Garamond (rubriker) + Inter (brödtext) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ============================================================
+       Strukturerad data – schema.org Restaurant (JSON-LD)
+       OBS: Justera geo-koordinater, e-post och sociala länkar.
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Hammurabi Restaurang",
+    "description": "Irakisk och kurdisk mellanösternrestaurang och kolgrill i Årsta, Stockholm. Grillade kebab- och spetträtter, saffransris, nybakat bröd, mezze och generösa portioner.",
+    "servesCuisine": ["Irakisk", "Kurdisk", "Mellanöstern", "Grill"],
+    "priceRange": "$$",
+    "url": "https://hammurabi-restaurang.netlify.app/",
+    "telephone": "+46720035555",
+    "image": "https://hammurabi-restaurang.netlify.app/images/og-image.jpg",
+    "acceptsReservations": "True",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Sköntorpsvägen 84",
+      "postalCode": "120 53",
+      "addressLocality": "Årsta",
+      "addressRegion": "Stockholm",
+      "addressCountry": "SE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 59.2981,
+      "longitude": 18.0476
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "11:00",
+        "closes": "20:00"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Hoppa-till-innehåll för tangentbord/skärmläsare -->
+  <a class="skip-link" href="#hem">Hoppa till innehåll</a>
+
+  <!-- ============================================================
+       1. STICKY HEADER
+       ============================================================ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#hem" class="brand" aria-label="Hammurabi Restaurang – till toppen">
+        <span class="brand-mark" aria-hidden="true">𒀭</span>
+        <span class="brand-text">
+          <span class="brand-name">Hammurabi</span>
+          <span class="brand-sub">Restaurang &amp; Kolgrill</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Huvudmeny">
+        <ul>
+          <li><a href="#hem" class="nav-link">Hem</a></li>
+          <li><a href="#meny" class="nav-link">Meny</a></li>
+          <li><a href="#om-oss" class="nav-link">Om oss</a></li>
+          <li><a href="#oppettider" class="nav-link">Öppettider</a></li>
+          <li><a href="#hitta-hit" class="nav-link">Hitta hit</a></li>
+        </ul>
+      </nav>
+
+      <a href="tel:+46720035555" class="btn btn-call header-cta">
+        <span aria-hidden="true">☎</span> Ring &amp; boka
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Öppna meny" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         2. HERO
+         ============================================================ -->
+    <section class="hero" id="hem">
+      <!-- BYT UT: ägarens egen hero-bild (gärna en läcker grilltallrik eller interiör) -->
+      <div class="hero-media">
+        <img src="images/hero.jpg" alt="Grillade spett och kött över glödande kol på Hammurabi Restaurang" fetchpriority="high" decoding="async" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">Irakisk &amp; kurdisk kolgrill · Årsta, Stockholm</p>
+        <h1 class="hero-title">Hammurabi Restaurang</h1>
+        <p class="hero-tagline">
+          Eld, rök och tradition. Mört kött från kolgrillen, doftande saffransris,
+          nybakat bröd och generösa mezze – mat lagad med hjärta, precis som hemma.
+        </p>
+        <div class="hero-actions">
+          <a href="#meny" class="btn btn-primary">Se menyn</a>
+          <a href="tel:+46720035555" class="btn btn-ghost">☎ Ring för bokning</a>
+        </div>
+        <p class="hero-status" id="hero-status" aria-live="polite"><!-- Fylls av JS: Öppet nu / Stängt --></p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. OM OSS
+         ============================================================ -->
+    <section class="section about" id="om-oss">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="eyebrow eyebrow-dark">Om oss</p>
+          <h2 class="section-title">Smaker från Mesopotamien – mitt i Årsta</h2>
+          <p>
+            Namnet Hammurabi för tankarna till det gamla Babylon och Mesopotamien –
+            landet mellan floderna där matlagning länge varit en konst och en gästfrihet.
+            Hos oss möts det irakiska och kurdiska köket över samma glödbädd: kött som
+            grillas långsamt över kol tills det blir saftigt och mört, kryddat med
+            omsorg och serverat utan snålhet.
+          </p>
+          <p>
+            Vi bakar vårt bröd färskt, kokar riset med saffran och rullar våra mezze för
+            hand. Här är alla välkomna – familjen, vännerna och den som bara är hungrig.
+            Slå dig ner, ta för dig och känn dig som hemma.
+          </p>
+          <ul class="about-points">
+            <li><span aria-hidden="true">🔥</span> Äkta kolgrill</li>
+            <li><span aria-hidden="true">🌿</span> Färska råvaror</li>
+            <li><span aria-hidden="true">🫓</span> Nybakat bröd</li>
+            <li><span aria-hidden="true">👨‍👩‍👧</span> Familjevänligt</li>
+          </ul>
+        </div>
+        <div class="about-media">
+          <!-- BYT UT: ägarens egen bild (interiör eller en signaturrätt) -->
+          <img src="images/about.jpg" alt="Dukat bord med mezze, bröd och grillrätter på Hammurabi Restaurang" loading="lazy" decoding="async" />
+          <div class="about-badge">
+            <span class="about-badge-score">4,3</span>
+            <span class="about-badge-stars" aria-hidden="true">★★★★☆</span>
+            <span class="about-badge-text">på Google</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         4. MENY
+         OBS: ALLA rätter och priser nedan är EXEMPEL.
+         Ägaren ersätter dessa med sin riktiga meny och sina priser.
+         ============================================================ -->
+    <section class="section menu" id="meny">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">Vår meny</p>
+          <h2 class="section-title">Från grillen och köket</h2>
+          <p class="section-lead">
+            Ett smakprov på vad som lagas hos oss – från rykande spett till svala mezze.
+          </p>
+          <!-- Tydlig notis: detta är en exempelmeny -->
+          <p class="menu-disclaimer" role="note">
+            ⚠️ <strong>Exempelmeny.</strong> Rätterna och priserna nedan är exempel och ska
+            ersättas med restaurangens riktiga meny och aktuella priser.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Förrätter & Mezze -->
+          <div class="menu-card">
+            <h3 class="menu-cat">Förrätter &amp; Mezze</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item"><span class="menu-name">Hummus</span><span class="menu-price">89 kr</span></span><span class="menu-desc">Krämig kikärtsröra med tahini, olivolja och citron.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Baba Ghanoush</span><span class="menu-price">89 kr</span></span><span class="menu-desc">Rökig auberginröra grillad över kol.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Tabbouleh</span><span class="menu-price">95 kr</span></span><span class="menu-desc">Persiljesallad med bulgur, tomat och citron.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Dolma</span><span class="menu-price">99 kr</span></span><span class="menu-desc">Vinblad fyllda med kryddat ris och örter.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Falafel (6 st)</span><span class="menu-price">85 kr</span></span><span class="menu-desc">Frasiga kikärtsbollar med vitlökssås.</span></li>
+            </ul>
+          </div>
+
+          <!-- Grillrätter & spett -->
+          <div class="menu-card menu-card-feature">
+            <h3 class="menu-cat">Grillrätter &amp; spett <span class="menu-cat-tag">Kolgrill</span></h3>
+            <ul class="menu-list">
+              <li><span class="menu-item"><span class="menu-name">Kabab koobideh</span><span class="menu-price">159 kr</span></span><span class="menu-desc">Saftigt köttfärsspett grillat över kol, med saffransris.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Shish taouk</span><span class="menu-price">169 kr</span></span><span class="menu-desc">Marinerade kycklingspett, möra och rökiga.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Lammkotletter</span><span class="menu-price">219 kr</span></span><span class="menu-desc">Grillade lammkotletter med örter och vitlök.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Blandad grilltallrik</span><span class="menu-price">245 kr</span></span><span class="menu-desc">Ett urval av husets bästa spett – perfekt att dela.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Kungstallrik för två</span><span class="menu-price">469 kr</span></span><span class="menu-desc">Generös grillfest med kött, kyckling, ris och bröd.</span></li>
+            </ul>
+          </div>
+
+          <!-- Vegetariskt -->
+          <div class="menu-card">
+            <h3 class="menu-cat">Vegetariskt</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item"><span class="menu-name">Grillade grönsaksspett</span><span class="menu-price">139 kr</span></span><span class="menu-desc">Paprika, lök, zucchini och tomat över kol.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Falafeltallrik</span><span class="menu-price">145 kr</span></span><span class="menu-desc">Falafel, ris, sallad och vitlökssås.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Vegetarisk mezzetallrik</span><span class="menu-price">155 kr</span></span><span class="menu-desc">Ett smakrikt urval av husets mezze.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Linsgryta</span><span class="menu-price">135 kr</span></span><span class="menu-desc">Värmande gryta på röda linser och kryddor.</span></li>
+            </ul>
+          </div>
+
+          <!-- Bröd & tillbehör -->
+          <div class="menu-card">
+            <h3 class="menu-cat">Bröd &amp; tillbehör</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item"><span class="menu-name">Nybakat samoonbröd</span><span class="menu-price">29 kr</span></span><span class="menu-desc">Varmt bröd direkt från ugnen.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Saffransris</span><span class="menu-price">45 kr</span></span><span class="menu-desc">Fluffigt ris med saffran.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Vitlökssås (Toum)</span><span class="menu-price">25 kr</span></span><span class="menu-desc">Luftig, krämig vitlökssås.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Grillad tomat &amp; lök</span><span class="menu-price">39 kr</span></span><span class="menu-desc">Klassiskt tillbehör från grillen.</span></li>
+            </ul>
+          </div>
+
+          <!-- Efterrätter -->
+          <div class="menu-card">
+            <h3 class="menu-cat">Efterrätter</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item"><span class="menu-name">Baklava</span><span class="menu-price">59 kr</span></span><span class="menu-desc">Frasig filodeg med nötter och sirap.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Kunafa</span><span class="menu-price">79 kr</span></span><span class="menu-desc">Varm ostdessert med kataifi och sirap.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Riskräm (Roz bi haleeb)</span><span class="menu-price">55 kr</span></span><span class="menu-desc">Krämig riskräm med kardemumma.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Dadlar &amp; nötter</span><span class="menu-price">49 kr</span></span><span class="menu-desc">Söta dadlar med rostade nötter.</span></li>
+            </ul>
+          </div>
+
+          <!-- Dryck -->
+          <div class="menu-card">
+            <h3 class="menu-cat">Dryck</h3>
+            <ul class="menu-list">
+              <li><span class="menu-item"><span class="menu-name">Färskpressad apelsin</span><span class="menu-price">45 kr</span></span><span class="menu-desc">Nypressad och uppfriskande.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Ayran</span><span class="menu-price">35 kr</span></span><span class="menu-desc">Salt yoghurtdryck.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Svart te (istikan)</span><span class="menu-price">29 kr</span></span><span class="menu-desc">Traditionellt serverat i litet glas.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Kaffe</span><span class="menu-price">35 kr</span></span><span class="menu-desc">Bryggt eller på mellanösternvis.</span></li>
+              <li><span class="menu-item"><span class="menu-name">Läsk &amp; vatten</span><span class="menu-price">25 kr</span></span><span class="menu-desc">Olika sorter.</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu-cta">
+          <p>Sugen? Ring och boka bord eller beställ för avhämtning.</p>
+          <a href="tel:+46720035555" class="btn btn-primary">☎ 072-003 55 55</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. GALLERI
+         ============================================================ -->
+    <section class="section gallery" id="galleri">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">Galleri</p>
+          <h2 class="section-title">Lite av det vi serverar</h2>
+          <p class="section-lead">Bilderna är exempel – byt gärna ut dem mot egna foton.</p>
+        </div>
+        <!-- BYT UT: ägarens egna matbilder. Behåll alt-texter beskrivande. -->
+        <div class="gallery-grid">
+          <figure class="gallery-item"><img src="images/gallery-1.jpg" alt="Grillade köttspett med grönsaker" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-item"><img src="images/gallery-2.jpg" alt="Mezzebricka med hummus, oliver och bröd" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-item"><img src="images/gallery-3.jpg" alt="Saffransris med grillat kött" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-item"><img src="images/gallery-4.jpg" alt="Nybakat platt bröd" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-item"><img src="images/gallery-5.jpg" alt="Falafel med dipp och sallad" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-item"><img src="images/gallery-6.jpg" alt="Baklava och söta efterrätter" loading="lazy" decoding="async" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. ÖPPETTIDER
+         ============================================================ -->
+    <section class="section hours" id="oppettider">
+      <div class="container hours-grid">
+        <div class="hours-card">
+          <p class="eyebrow eyebrow-dark">Öppettider</p>
+          <h2 class="section-title">Välkommen in</h2>
+          <p class="hours-status" id="hours-status" aria-live="polite"><!-- Fylls av JS --></p>
+          <ul class="hours-list" id="hours-list">
+            <li data-day="1"><span>Måndag</span><span class="hours-closed">Stängt</span></li>
+            <li data-day="2"><span>Tisdag</span><span>11.00–20.00</span></li>
+            <li data-day="3"><span>Onsdag</span><span>11.00–20.00</span></li>
+            <li data-day="4"><span>Torsdag</span><span>11.00–20.00</span></li>
+            <li data-day="5"><span>Fredag</span><span>11.00–20.00</span></li>
+            <li data-day="6"><span>Lördag</span><span>11.00–20.00</span></li>
+            <li data-day="0"><span>Söndag</span><span>11.00–20.00</span></li>
+          </ul>
+          <p class="hours-note">Öppet alla dagar utom måndag. Köket stänger en stund innan stängning.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. HITTA HIT / KONTAKT
+         ============================================================ -->
+    <section class="section contact" id="hitta-hit">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-dark">Hitta hit</p>
+          <h2 class="section-title">Besök oss i Årsta</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon" aria-hidden="true">📍</span>
+                <span>
+                  <strong>Adress</strong><br />
+                  <a href="https://www.google.com/maps/search/?api=1&amp;query=Sk%C3%B6ntorpsv%C3%A4gen+84+120+53+%C3%85rsta" target="_blank" rel="noopener">Sköntorpsvägen 84, 120 53 Årsta</a>
+                </span>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">☎</span>
+                <span>
+                  <strong>Telefon</strong><br />
+                  <a href="tel:+46720035555">072-003 55 55</a>
+                </span>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">✉️</span>
+                <span>
+                  <strong>E-post</strong><br />
+                  <!-- BYT UT: ägarens riktiga e-postadress -->
+                  <a href="mailto:info@hammurabirestaurang.se">info@hammurabirestaurang.se</a>
+                </span>
+              </li>
+              <li>
+                <span class="contact-icon" aria-hidden="true">🕑</span>
+                <span>
+                  <strong>Öppet</strong><br />
+                  Tis–sön 11.00–20.00 · Mån stängt
+                </span>
+              </li>
+            </ul>
+
+            <div class="socials">
+              <!-- BYT UT: ägarens riktiga sociala medier-länkar -->
+              <a href="#" class="social-link" aria-label="Hammurabi Restaurang på Instagram (länk att fyllas i)">Instagram</a>
+              <a href="#" class="social-link" aria-label="Hammurabi Restaurang på Facebook (länk att fyllas i)">Facebook</a>
+            </div>
+
+            <!-- KONTAKTFORMULÄR
+                 Kopplat till Netlify Forms (data-netlify="true").
+                 Fungerar automatiskt när sajten hostas på Netlify.
+                 På andra värdar (t.ex. Vercel) måste action/backend kopplas
+                 till en mejltjänst (Formspree, Web3Forms, m.fl.). -->
+            <form class="contact-form" name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="kontakt" />
+              <p class="hidden-field">
+                <label>Lämna tomt om du är människa: <input name="bot-field" /></label>
+              </p>
+              <h3 class="form-title">Skicka ett meddelande</h3>
+              <div class="form-row">
+                <label for="namn">Namn</label>
+                <input id="namn" name="namn" type="text" autocomplete="name" required />
+              </div>
+              <div class="form-row">
+                <label for="epost">E-post</label>
+                <input id="epost" name="epost" type="email" autocomplete="email" required />
+              </div>
+              <div class="form-row">
+                <label for="meddelande">Meddelande</label>
+                <textarea id="meddelande" name="meddelande" rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Skicka</button>
+              <p class="form-hint">Vill du boka bord? Ring oss gärna på <a href="tel:+46720035555">072-003 55 55</a>.</p>
+            </form>
+          </div>
+
+          <div class="contact-map">
+            <!-- Inbäddad Google Maps – fungerar utan API-nyckel -->
+            <iframe
+              title="Karta till Hammurabi Restaurang, Sköntorpsvägen 84, Årsta"
+              src="https://www.google.com/maps?q=Sk%C3%B6ntorpsv%C3%A4gen%2084%2C%20120%2053%20%C3%85rsta&output=embed"
+              width="100%" height="100%" style="border:0;" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       8. FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">𒀭</span>
+        <span class="brand-name">Hammurabi Restaurang</span>
+        <p>Irakisk &amp; kurdisk kolgrill i Årsta, Stockholm.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Besök</h4>
+        <p>Sköntorpsvägen 84<br />120 53 Årsta</p>
+        <p><a href="tel:+46720035555">072-003 55 55</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Öppettider</h4>
+        <p>Tisdag–söndag<br />11.00–20.00</p>
+        <p>Måndag stängt</p>
+      </div>
+      <div class="footer-col">
+        <h4>Meny</h4>
+        <ul class="footer-nav">
+          <li><a href="#meny">Meny</a></li>
+          <li><a href="#om-oss">Om oss</a></li>
+          <li><a href="#hitta-hit">Hitta hit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year">2026</span> Hammurabi Restaurang. Alla rättigheter förbehållna.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

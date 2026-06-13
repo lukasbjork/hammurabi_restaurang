@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hammurabi-restaurang.netlify.app/sitemap.xml
